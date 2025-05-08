@@ -28,7 +28,7 @@ header{
                     font-weight: $font-bold;
                     //parent selector
                     &:hover, &.active{
-                        color: $header-nav-link-hover;
+                        color: lighten(complement($header-bg), 35%);
                     }
                 }
                 //a end

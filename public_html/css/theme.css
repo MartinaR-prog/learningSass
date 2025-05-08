@@ -13,8 +13,12 @@
 }
 
 .btn-default {
-  background-color: #444444;
+  background-color: rgba(68, 68, 68, 0.8);
   color: #ffffff;
+}
+
+.btn-default:hover {
+  background-color: #2b2b2b;
 }
 
 .btn-danger {
@@ -22,9 +26,17 @@
   color: #ffffff;
 }
 
+.btn-danger:hover {
+  background-color: #680404;
+}
+
 .btn-success {
   background-color: #0b5e07;
   color: #ffffff;
+}
+
+.btn-success:hover {
+  background-color: #052f03;
 }
 
 .btn-warning {
@@ -32,14 +44,26 @@
   color: #ffffff;
 }
 
+.btn-warning:hover {
+  background-color: #cf7217;
+}
+
 .btn-info {
   background-color: #3cdec3;
   color: #ffffff;
 }
 
+.btn-info:hover {
+  background-color: #21c6aa;
+}
+
 .btn-dark {
   background-color: #000000;
   color: #ffffff;
+}
+
+.btn-dark:hover {
+  background-color: #333333;
 }
 
 /* FONT PROPERTY */
@@ -450,7 +474,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover, header nav ul li a.active {
-  color: #f0fc42;
+  color: #70fa5c;
 }
 
 /*header a{
@@ -541,7 +565,7 @@ footer nav ul li a {
 }
 
 footer nav ul li a:hover, footer nav ul li a.active {
-  color: #f0fc42;
+  color: #70fa5c;
 }
 
 @media (min-width: 768px) {
